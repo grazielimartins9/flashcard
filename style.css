@@ -38,4 +38,11 @@ main{
 
 h1{
     color: black;
+    font-size: 124px;
+}
+
+footer{
+    background-color: aqua;
+    padding: 15px 25px;
+    color:aqua;
 }
