@@ -46,3 +46,11 @@ footer{
     padding: 15px 25px;
     color:aqua;
 }
+
+.cartao-interno{
+    position: relative;
+}
+
+.cartao-frente, .cabecalho-verso {
+    position:absolute;
+}
