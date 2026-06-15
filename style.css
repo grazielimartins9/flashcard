@@ -53,8 +53,7 @@ footer{
     transform-style preserve-3d;
 }
 
-.cartao-frente,
- .cabecalho-verso {
+.cartao-frente,.cabecalho-verso {
     position:absolute;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -68,13 +67,8 @@ footer{
 .cartao:hover .cartao-interno { 
   transform: rotateY(180deg); 
 } 
-<section class="cartoes"> 
-  <article class="cartao">...</article> 
-  <article class="cartao">...</article> 
-</section> 
-
 
 section { 
+  gap: 20px; 
   display: flex; 
-  gap: 16px; 
 } 
