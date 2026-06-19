@@ -50,7 +50,7 @@ footer{
 .cartao-interno{
     position: relative;
     transition: tranform 0.8s;
-    transform-style preserve-3d;
+    transform-style: preserve-3d;
 }
 
 .cartao-frente,.cabecalho-verso {
