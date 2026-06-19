@@ -29,6 +29,9 @@ body{
 
 main{
     flex: 1;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: black;
 }
 
 .cabecalho-link {
@@ -53,7 +56,8 @@ footer{
     transform-style: preserve-3d;
 }
 
-.cartao-frente,.cabecalho-verso {
+.cartao-frente,
+.cabecalho-verso {
     position:absolute;
     border-radius: 12px;
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
@@ -61,7 +65,7 @@ footer{
 }
 
 .cartao-verso  {
-    transform: rotate(180deg);
+    transform: rotateY (180deg);
 
 }
 .cartao:hover .cartao-interno { 
@@ -69,6 +73,7 @@ footer{
 } 
 
 section { 
-  gap: 20px; 
   display: flex; 
+  gap: 16px; 
+
 } 
