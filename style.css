@@ -60,7 +60,7 @@ footer{
 .cabecalho-verso {
     position:absolute;
     border-radius: 12px;
-    box-shadow: 0 6px 12px rgba(33, 161, 165, 0.15);
+    box-shadow: 0 6px 12px rgba(10, 114, 117, 0.15);
     backface-visibility: hidden;
 }
 
