@@ -31,7 +31,7 @@ body{
 main{
     flex: 1;
     flex-direction: column;
-    align-items: center;
+    align-items: center;42
     display: flex;
 }
 
@@ -48,7 +48,7 @@ h1{
 footer{
     background-color: aqua;
     padding: 15px 25px;
-    color:aqua;
+    color:rgb(192, 199, 199);
 }
 
 .cartao-interno{
